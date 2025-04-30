@@ -1,18 +1,17 @@
-import { useState } from "react";
-import "./App.css";
-import Navbar from "./component/navbar";
-import Button from "./component/Button";
-import Login from "./pages/Login";
-import { Route, Routes } from "react-router";
-function App() {
-  const [count, setCount] = useState(0);
+import { Route, Routes } from "react-router-dom";
+import Searchstory from "./layout/searchstory";
+import Story from "./pages/story";
+import Cardstory from "./layout/cardstory";
+import Storydetails from "./pages/storydetails";
 
+function App() {
   return (
     <>
       <Routes>
-        <Route path="/Navbar" element={<Navbar />} />
-        <Route path="/Button" element={<Button />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/searchstory" element={<Searchstory />} />
+        <Route path="/cardstory" element={<Cardstory />} />
+        <Route path="/story" element={<Story />} />
+        <Route path="/story/:documentId" element={<Storydetails />} />
       </Routes>
     </>
   );
