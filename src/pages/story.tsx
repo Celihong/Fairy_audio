@@ -2,6 +2,148 @@ import ting from "../assets/ting.png";
 import Card from "../layout/cardstory";
 
 const Story = () => {
+  const DataCard = [
+    {
+      id: 1,
+      title: "Sleeping",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 2,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 3,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 4,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 5,
+      title: "Sleeping",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 6,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 7,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 8,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 9,
+      title: "Sleeping",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 10,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 11,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 12,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 13,
+      title: "Sleeping",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 14,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 15,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 16,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 17,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 18,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 19,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 20,
+      title: "Sleeping Beauty",
+      desc: "A wicked witch curses a baby princess to vanish on her 16th birthday.",
+      imgSrc:
+        "https://images.unsplash.com/photo-1593642633270-c4e9b1f8c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    },
+  ];
   return (
     <div className=" mt-10 sm:ml-[200]">
       <form className="w-full max-w-xl ml-165 px-4">
@@ -87,15 +229,15 @@ const Story = () => {
           </label>
         </div>
       </div>
-
-      <div className="">
-        <p className="ml-[90px] mt-10 text-[40px]">Fairy tales</p>
-        <div className="grid sm:grid-cols-2 md:grid-cols-4  ml-18">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
+      <p className="ml-[90px] mt-10 text-[40px]">Classic</p>
+      <div className="grid sm:grid-cols-2 md:grid-cols-4  ml-18">
+        {DataCard.map((item) => {
+          return (
+            <div>
+              <Card title={item.title} desc={item.desc} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

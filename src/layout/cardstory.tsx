@@ -8,6 +8,10 @@ const CardStory = () => {
   const toggleLike = () => {
     setLiked(!liked);
   };
+  type CardProps = {
+    title: string;
+    desc: string;
+  };
 
   return (
     <div className="">

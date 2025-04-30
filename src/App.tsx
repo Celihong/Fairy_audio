@@ -11,7 +11,7 @@ function App() {
         <Route path="/searchstory" element={<Searchstory />} />
         <Route path="/cardstory" element={<Cardstory />} />
         <Route path="/story" element={<Story />} />
-        <Route path="/storydetails" element={<Storydetails />} />
+        <Route path="/story/:documentId" element={<Storydetails />} />
       </Routes>
     </>
   );
